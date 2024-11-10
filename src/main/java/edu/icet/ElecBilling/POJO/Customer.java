@@ -35,7 +35,7 @@ public class Customer implements Serializable {
     private String password;
 
     @Column(name="active")
-    private String active;
+    private String status;
 
     @Column(name="accountType")
     private String  accountType;

@@ -58,7 +58,7 @@ public class CustomerServicelmpl implements CustomerService {
         customer.setEmail(requestMap.get("email"));
         customer.setPassword(requestMap.get("password"));
         customer.setAccountType("residential");
-        customer.setActive("active");
+        customer.setStatus("active");
         return customer;
     }
 }
